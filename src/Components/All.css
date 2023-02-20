@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.navbar{
+   
+    border: 1px solid black;
+    height: 10vh;
+    background-color: black;
+    /* color: white; */
+    list-style-type: none;
+}
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+
+}
+.nav{
+    color: white;
+    text-decoration: none;
+}
+.nav:hover{
+transform: scale(1.2);
+color: gray;
+text-decoration: inherit;
+}
+.active{
+    color: green;
+}
+
